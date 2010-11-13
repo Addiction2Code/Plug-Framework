@@ -1,0 +1,548 @@
+/*General*/
+
+.information {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-image: url('images/sty_top_left.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #fffaaa;
+	border-bottom: 2px dotted #fff444;
+}
+
+.information_block {
+	min-height: 110px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-image: url('images/sty_top_left.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #fffaaa;
+	border-bottom: 2px dotted #fff444;
+}
+
+.information_head {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #fffaaa;
+	border-bottom: 2px dotted #fff444;
+	background-image: url('images/sty_gradient.jpg');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-color: #fffaaa;
+	border: 2px dotted #fff444;
+}
+
+.news_block {
+	min-height: 170px;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	background-color: #f1f1f1;
+	border-bottom: 2px dotted #fff444;
+}
+
+.news_block_close{
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 10px;
+	background-color: #fffaaa;
+	//overflow: scroll;
+	border-bottom: 2px dotted #fff444;
+}
+
+.news_block_master {
+	display: none;
+}
+
+div.news_block div.text_block {
+	overflow: auto;
+	/*Not sure about this*/
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	background-color: #fffaaa;
+	//overflow: scroll;
+	border-left: 2px dotted #fff444;
+	border-right: 2px dotted #fff444;
+	border-bottom: 2px dotted #fff444;
+}
+
+div.news_block div.text_block {
+	height: 120px;
+	overflow: auto;
+}
+
+.news_block_right {
+	float: right;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+	padding-top: 7px;
+	padding-left: 25px;
+	padding-right: 25px;
+	vertical-align: middle;
+	border-left: 2px dotted #fff444;
+}
+
+.block_right {
+	float: right;
+	margin-left: 0px;
+	padding-top: 4px;
+	padding-left: 25px;
+	margin-left: 4px;
+	vertical-align: middle;
+	border-left: 2px dotted #fff444;
+}
+
+.text_block {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.comment_heading {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-image: url('images/sty_top_left.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #fffaaa;
+	border-bottom: 2px dotted #fff444;
+}
+
+.append_info {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #fffaaa;
+	vertical-align: middle;
+	border-bottom: 2px dotted #fff444;
+}
+
+.update {
+	margin-top: 5px;
+	padding: 2px;
+	border-bottom: 2px dotted #aaa;
+	border-top: 2px dotted #aaa;
+}
+
+.title {
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #3366aa;
+	letter-spacing: 1.25px;
+	line-height: 1.5;
+	padding: 5px;
+	margin: auto 15px;
+}
+
+.float_right
+{
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 2px;
+}
+
+.float_left
+{
+	float: left;
+	margin: 0 0 10px 10px;
+	padding: 2px;
+}
+
+div.float_image {
+	height: 0px;
+	width: 0px;
+}
+
+img.float_right
+{
+	float: right;
+	margin: 0 0 10px 10px;
+	border: 1px solid #666;
+	padding: 2px;
+}
+
+img.border
+{
+	border: 1px solid #666;
+	padding: 2px;
+}
+
+.indent {
+	padding-left: 2em;
+}
+
+img.blank {
+	border: none;
+	text-decoration: none;
+}
+
+a.blank {
+	color: inherit;
+	text-decoration: none;
+}
+
+/*Gerneral - Fonts*/
+
+font.textish
+{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #444444;
+    letter-spacing: 1.25px;
+    line-height: 1.5;
+    padding: 5px;
+    margin: auto 15px;
+}
+
+font.textishe
+{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #444444;
+    letter-spacing: 1.25px;
+    line-height: 1.5;
+    padding: 5px;
+    margin: auto;
+}
+
+font.linkish
+{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #000000;
+    letter-spacing: 1.25px;
+    line-height: 1.5;
+    padding: 5px;
+    margin: auto 15px;
+}
+
+/*Video Plugin*/
+
+#video_player {
+
+}
+
+#video_playlist {
+	margin-bottom: 3px;
+	height: 334px;
+	width: 300px;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: #f1f1f1;
+	border: 2px solid #e5e5e5;
+}
+
+/*Playlist*/
+
+#video_playlist ul {
+	margin-top: 0;
+	padding-left: 0;
+	margin-left: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#video_playlist ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0.25em;
+	border-top: 1px solid #e5e5e5;
+}
+
+#video_playlist ul li a {
+	color: #444;
+	text-decoration: none;
+}
+
+.video_playlist_scroll {
+	height: 255px;
+	width: 295;
+	overflow: auto;
+}
+
+/*For Shows, Collections, and Episodes Table*/
+
+.table_link {
+	color: #444;
+	text-decoration: underline;
+	display: inline;
+	font-size: 20px;
+}
+
+.restricted_link {
+	color: #ff0000;
+	text-decoration: underline;
+	display: inline;
+	font-size: 20px;
+}
+
+.table_text_right {
+	text-align: right;
+}
+
+.table_text_center {
+	text-align: center;
+}
+
+/*Shows Table shows.php*/
+
+.show_table {
+	height: 100px;
+	font-size: 12px;
+}
+
+.show_title {
+	width: 225px;
+}
+
+.show_author {
+	width: 100px;
+}
+
+.show_collections {
+	width: 100px;
+}
+
+.show_description {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 250px;
+}
+
+.show_cover {
+	width: 125px;
+}
+
+.show_item {
+
+}
+
+.show_text_right {
+	text-align: right;
+}
+
+/*Collection Table collections.php*/
+
+.collection_table {
+	height: 100px;
+	font-size: 12px;
+}
+
+.collection_title {
+	width: 225px;
+}
+
+.collection_show {
+	width: 125px;
+}
+
+.collection_description {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 250px;
+}
+
+.collection_cover {
+	width: 125px;
+}
+
+.collection_item {
+
+}
+
+.collection_text_right {
+	text-align: right;
+}
+
+/*Episode Table episodes.php*/
+
+.episode_table {
+	height: 100px;
+	font-size: 12px;
+}
+
+.episode_title {
+	width: 225px;
+}
+
+.episode_show {
+	width: 125px;
+}
+
+.episode_collection {
+	width: 125px;
+}
+
+.episode_description {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 250px;
+}
+
+.episode_cover {
+	width: 125px;
+}
+
+.episode_item {
+
+}
+
+.episode_text_right {
+	text-align: right;
+}
+
+/*Comics Table Page*/
+
+.comic_table {
+	height: 100px;
+	font-size: 12px;
+}
+
+.comic_title {
+	width: 225px;
+}
+
+.comic_collection {
+	width: 125px;
+}
+
+.comic_description {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 250px;
+}
+
+.comic_publisher {
+	width: 125px;
+}
+
+.comic_small_num {
+	width: 50px;
+}
+
+.comic_cover {
+	width: 90px;
+}
+
+.comic_item {
+
+}
+
+/*Login*/
+
+.login_table_head {
+	color: 333;
+}
+
+.login_table_body {
+	color: 333;
+	padding: 5px;
+	background-color: #fffaaa;
+	border: 1px solid #999;
+}
+
+/*Welcome Page*/
+
+.subscription_list {
+	margin-bottom: 3px;
+	height: 334px;
+	width: 300px;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: #f1f1f1;
+	border: 2px solid #e5e5e5;
+}
+
+.subscription_list ul {
+	margin-top: 0;
+	padding-left: 0;
+	margin-left: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.subscription_list ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0.25em;
+	border-top: 1px solid #e5e5e5;
+}
+
+.subscription_list ul li a {
+	color: #444;
+	text-decoration: none;
+}
+
+.subscription_list_scroll {
+	height: 255px;
+	width: 295;
+	overflow: auto;
+}
+
+/*Albums*/
+
+.album_info {
+	top: -32px;
+	left: 5px;
+	background-color: #fff;
+	position: relative;
+	float: bottom;
+	width: 125px;
+	height: 18px;
+	padding: 2px;
+	padding-right: 0px;
+	opacity: 0.5;
+	filter: alpha(opacity=50)
+}
+
+.image_info {
+	top: -32px;
+	left: 5px;
+	background-color: #fff;
+	position: relative;
+	float: bottom;
+	width: 100blpx;
+	height: 18px;
+	padding: 2px;
+	padding-right: 0px;
+	opacity: 0.5;
+	filter: alpha(opacity=50)
+}
+
+.thumb_image {
+	height: 125px;
+}
+
+/*Plugins*/
+
+.HitCounter_tack {
+	width: 60px;
+	text-align: center;
+	padding: 4px;
+	background-color: #fffaaa;
+	border: 2px solid #fff444;
+}
+
+/*Comment Form*/
+
+#CommentForm {a
+	color: #5895cb;
+	padding: 3px;
+	border: dotted 3px;
+}

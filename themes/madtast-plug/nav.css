@@ -1,0 +1,106 @@
+#navabar_a
+{
+	position: relative;
+	width: 100%;
+	height: 1.05em;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #e5e5e5;
+	white-space: nowrap;
+}
+
+#navabar_a li
+{
+	float: left;
+	margin: 0 0 0 2px;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #aaa #555 #f63 #999;
+	list-style-type: none;
+}
+
+#navabar_a li a
+{
+	position: relative;
+	width: 8em;
+	display: block;
+	margin: 0;
+	padding: 1px 0.4em;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #ccc;
+	background-color: #555;
+	color: #fff;
+	font: normal 0.7em/120% Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navabar_a li a:hover
+{
+	color: #999;
+	text-decoration: underline;
+}
+
+#navabar_a li#active a
+{
+	font-weight: bold;
+	background-color: #f63;
+	background-image: url('images/nava.jpg');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	color: #fff;
+	border-color: #f96 #c96 #f63 #f96;
+}
+
+#navabar_a li#active a:hover { color: #fff; }
+
+#navabar_a ul#subnavabar_a
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 1.25em;
+	height: 0.75em;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #f63;
+	white-space: nowrap;
+}
+
+#navabar_a ul#subnavabar_a li
+{
+	width: 12ex;
+	margin: 0;
+	border: 0;
+}
+
+#navabar_a ul#subnavabar_a li a
+{
+	width: auto;
+	padding: 0.06em 1em 0;
+	border: 0;
+	background-color: #fff;
+	color: #000;
+	font: normal normal 0.66em/110% Verdana, Arial, sans-serif;
+}
+
+#navabar_a ul#subnavabar_a li a:hover
+{
+	color: #00c;
+	text-decoration: underline;
+	font-weight: 400;
+	/* IE5/Mac disappearing item fix */
+}
+
+#navabar_a ul#subnavabar_a li#subactive a
+{
+	background-color: #fc9;
+	color: #000;
+}
+
+* html > body #navabar_a, * html > body #navabar_a ul#subnavabar_a
+{
+	width: 600px;
+	/* IE5/Mac fixed width fix */
+}

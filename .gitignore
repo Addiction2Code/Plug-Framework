@@ -1,0 +1,8 @@
+resources/cache/*
+resources/images/*
+resources/videoPlayer/*
+resources/mp3_player.swf
+media/albums/*
+media/images/*
+media/video/*
+*~

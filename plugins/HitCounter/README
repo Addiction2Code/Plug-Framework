@@ -1,0 +1,6 @@
+This is a very simple Hit Counter plugin for the Plug Framework,
+When you call this plugin plugin("HitCounter", "hitCounter_class", $counter)
+The counter attempts to open a file in the HitCounter folder (this folder) with the name
+of the counter (using the global $page is a good idea) plus _counter.txt,
+I usually name the counter the same as the page, keep in mind that you should
+probably create all the counter files before you launch you site.

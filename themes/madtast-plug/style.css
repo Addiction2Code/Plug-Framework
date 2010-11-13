@@ -1,0 +1,91 @@
+/*Side of page Area*/
+
+.div_l {
+	width: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("images/dl.jpg");
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.div_r {
+	width: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("images/dr.jpg");
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+/*Main page Area*/
+
+body {
+	background-color: #000000;
+	margin: 0;
+}
+
+#master {
+	color: #f1f1f1;
+	margin-top: 0px;
+	padding: 10px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333333;
+}
+
+/*Heading Area*/
+
+#header {
+
+}
+
+.banner {
+	padding: 5px;
+	text-align: right;
+	font-family: fantasy;
+	font-size: 22px;
+}
+
+/*Navabar Area*/
+
+#navabar_a {
+
+}
+
+.top_nav {
+
+}
+
+/*Content Area*/
+
+#output {
+	padding-top: 50px;
+}
+
+.output_area {
+
+}
+
+/*Footer*/
+
+#footer {
+
+}
+
+.footer_area {
+	border-top: 3px solid #e5e5e5;
+	padding-top: 15px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.footer_area a {
+	color: #FFFFFF;
+}
+
+/*General*/
+a {
+	color: #FFFFFF;
+}

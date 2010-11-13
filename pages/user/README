@@ -1,0 +1,4 @@
+Please make sure you look over the files in this folder before expecting them to work,
+You must have the database setup properly,
+
+You may importat users.sql into your database and everything should work properly.

@@ -1,0 +1,28 @@
+Welcome to Madtast Plug PHP Framework.
+
+You may add PHP pages to the pages folder,
+You may add themes to the themes folder,
+
+We would like to point out that you will find jquery, cycle and thickbox in this project,
+we are not the creators of these frameworks/libraries and have nothing to do with their contents,
+These components are simply used to enrich our framework.
+
+In addition, we have included some images throughout this project, they are there for you to use with the project,
+We do not take credit for creating the images. Most of this is simply sample data.
+
+
+To start, please modify the config.inc.php file, you will want to change the root to the name of the folder of plug, if you
+are using the root directory, you may leave it blank, you will also find many other options, they are worth a good look.
+Also, there are options in certain files as well, so if you can't find something here, try looking in the corresponding file.
+
+
+In the folder 'user/' in pages you will see a file called 'users.sql', this contains the SQL to create the users table,
+you may use this as a reference or simply import it into your database.
+
+
+The Photo Album found in pages in the 'images/' folder has the capability to allow 'admin users' to rename, add, and remove
+Photo Albums, as well as upload photos to albums. In order to enable this, you must first enable and setup the login system.
+Keep in mind, all Photo Albums are located in the 'media/albums/' folder.
+
+
+Enjoy!
